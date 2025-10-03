@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Stateful Widget Demo',
-      home: MyHomePage(title: 'Counter App'),
+      home: CounterPage(),
     );
   }
 }
